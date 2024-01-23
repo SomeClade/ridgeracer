@@ -1,0 +1,662 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "ridgeracer_fd6hlf12.jar"
+  ],
+  "treeExpansions": [
+    [
+      "Код",
+      "ridgeracer_fd6hlf12.jar"
+    ],
+    [
+      "Files",
+      "Inputs",
+      "ridgeracer_fd6hlf12.jar"
+    ],
+    [
+      "defpackage",
+      "Код",
+      "ridgeracer_fd6hlf12.jar"
+    ],
+    [
+      "i",
+      "defpackage",
+      "Код",
+      "ridgeracer_fd6hlf12.jar"
+    ],
+    [
+      "Ресурсы",
+      "ridgeracer_fd6hlf12.jar"
+    ]
+  ],
+  "codeData": {
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 14
+        },
+        "comment": "DOWN_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 27
+        },
+        "comment": "FIRE_PRESSED (OK)"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 40
+        },
+        "comment": "GAME_A_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 54
+        },
+        "comment": "GAME_B_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 68
+        },
+        "comment": "GAME_C_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 82
+        },
+        "comment": "GAME_D_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 94
+        },
+        "comment": "LEFT_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 107
+        },
+        "comment": "RIGHT_PRESSED"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 119
+        },
+        "comment": "UP_PRESSED"
+      }
+    ],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ae"
+        },
+        "newName": "GameSettings"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "i"
+        },
+        "newName": "RidgeGame"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "o"
+        },
+        "newName": "LocalizationFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "t"
+        },
+        "newName": "ToDo_Controls"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "y"
+        },
+        "newName": "Localization"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "Ridge",
+          "shortId": "a:Li;"
+        },
+        "newName": "game"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ae",
+          "shortId": "a:I"
+        },
+        "newName": "thvibspin0"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ae",
+          "shortId": "e:I"
+        },
+        "newName": "namcowait"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ae",
+          "shortId": "f:I"
+        },
+        "newName": "thvibcrush"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ae",
+          "shortId": "l:I"
+        },
+        "newName": "thvibspin1"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ae",
+          "shortId": "x:I"
+        },
+        "newName": "thmaxpol"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ae",
+          "shortId": "y:I"
+        },
+        "newName": "thskipdraw"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "i",
+          "shortId": "T:I"
+        },
+        "newName": "CLIPNEAR"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "i",
+          "shortId": "V:LRidge;"
+        },
+        "newName": "app"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "i",
+          "shortId": "b:Ljavax/microedition/lcdui/Font;"
+        },
+        "newName": "fontBig"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "i",
+          "shortId": "i:Lt;"
+        },
+        "newName": "controls"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "i",
+          "shortId": "k:Ljava/lang/Runtime;"
+        },
+        "newName": "runtime"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "i",
+          "shortId": "m:I"
+        },
+        "newName": "CLIPHEIGHT"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "o",
+          "shortId": "a:Ljava/io/InputStream;"
+        },
+        "newName": "localTXT"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "o",
+          "shortId": "c:Ljava/io/Reader;"
+        },
+        "newName": "reader"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "t",
+          "shortId": "a:Ljavax/microedition/lcdui/game/GameCanvas;"
+        },
+        "newName": "canvas"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "t",
+          "shortId": "c:Ljava/util/Vector;"
+        },
+        "newName": "todo_Commands"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "sStrPaused"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "sLoading"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "region"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "sPressCenter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "sStrStartGame"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "f:Ljava/lang/String;"
+        },
+        "newName": "sStrNewGameSetup"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "g:Ljava/lang/String;"
+        },
+        "newName": "sStrTimeTrialRecords"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "h:Z"
+        },
+        "newName": "NOT_hieroglyph"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "i:Ljava/lang/String;"
+        },
+        "newName": "sStrBestLap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "j:Ljava/lang/String;"
+        },
+        "newName": "language"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "y",
+          "shortId": "k:Ljava/lang/String;"
+        },
+        "newName": "sWinner"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "Ridge",
+          "shortId": "a()V"
+        },
+        "newName": "CreateGame"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "o",
+          "shortId": "\u003cinit\u003e(Ly;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "language"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "o",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "newName": "GetButtons"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "t",
+          "shortId": "c()I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "state"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 171
+        },
+        "newName": "indexOfdash"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 178
+        },
+        "newName": "regionPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "locale"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "b(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        "newName": "SplitLines"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "b(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "newLine"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "b(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 6
+        },
+        "newName": "lines"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "b(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "lastNewLine"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "b(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "newLines"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y",
+          "shortId": "b(Ljava/lang/String;)[Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "line"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "a",
+      "subPath": "java",
+      "caret": 3227,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "Ridge",
+      "subPath": "java",
+      "caret": 184,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "i",
+      "subPath": "java",
+      "caret": 5561,
+      "view": {
+        "x": 0,
+        "y": 2892
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "t",
+      "subPath": "java",
+      "caret": 1658,
+      "view": {
+        "x": 0,
+        "y": 409
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ae",
+      "subPath": "java",
+      "caret": 159,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "o",
+      "subPath": "java",
+      "caret": 566,
+      "view": {
+        "x": 0,
+        "y": 434
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "y",
+      "subPath": "java",
+      "caret": 9304,
+      "view": {
+        "x": 0,
+        "y": 3701
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "f",
+      "subPath": "java",
+      "caret": 299,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "g",
+      "subPath": "java",
+      "caret": 229,
+      "view": {
+        "x": 0,
+        "y": 410
+      },
+      "active": true
+    }
+  ],
+  "cacheDir": "C:\\Users\\Dima\\AppData\\Local\\skylot\\jadx\\cache\\projects\\ridgeracer_fd6hlf12-cfcb31bad46e8bae0f7d106b9078acc5",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}
